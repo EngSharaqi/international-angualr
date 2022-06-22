@@ -10,63 +10,63 @@ export class ProductsComponent {
   constructor() { }
   products = [
     {
-      name: 'Product Name',
-      description: 'bla bla bla',
+      name: 'Product name',
+      description: 'product description will be added here and this is just for testig and you can replace it',
       img: '../../assets/images/I.jpg'
   },
   {
-    name: 'Product Name',
-    description: 'bla bla bla',
+    name: 'Orange',
+    description: 'product description will be added here and this is just for testig and you can replace it',
     img: '../../assets/images/II.jpg'
 },
 {
   name: 'Product Name',
-  description: 'bla bla bla',
+  description: 'product description will be added here and this is just for testig and you can replace it',
   img: '../../assets/images/III.jpg'
 },
 {
   name: 'Product Name',
-  description: 'bla bla bla',
+  description: 'product description will be added here and this is just for testig and you can replace it',
   img: '../../assets/images/IIII.jpg'
 },
 {
   name: 'Product Name',
-  description: 'bla bla bla',
+  description: 'product description will be added here and this is just for testig and you can replace it',
   img: '../../assets/images/I.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/II.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/III.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/IIII.jpg'
 },
 {
   name: 'Product Name',
-  description: 'bla bla bla',
+  description: 'product description will be added here and this is just for testig and you can replace it',
   img: '../../assets/images/I.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/II.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/III.jpg'
 },
 {
 name: 'Product Name',
-description: 'bla bla bla',
+description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/IIII.jpg'
 },
   ];
