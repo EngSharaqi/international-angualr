@@ -32,30 +32,20 @@ export class ProductsComponent {
 {
   name: 'Product Name',
   description: 'product description will be added here and this is just for testig and you can replace it',
-  img: '../../assets/images/I.jpg'
+  img: '../../assets/images/IV.jpg'
 },
 {
 name: 'Product Name',
 description: 'product description will be added here and this is just for testig and you can replace it',
-img: '../../assets/images/II.jpg'
+img: '../../assets/images/V.jpg'
 },
 {
-name: 'Product Name',
-description: 'product description will be added here and this is just for testig and you can replace it',
-img: '../../assets/images/III.jpg'
-},
-{
-name: 'Product Name',
-description: 'product description will be added here and this is just for testig and you can replace it',
-img: '../../assets/images/IIII.jpg'
-},
-{
-  name: 'Product Name',
+  name: 'Product name',
   description: 'product description will be added here and this is just for testig and you can replace it',
   img: '../../assets/images/I.jpg'
 },
 {
-name: 'Product Name',
+name: 'Orange',
 description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/II.jpg'
 },
@@ -68,6 +58,16 @@ img: '../../assets/images/III.jpg'
 name: 'Product Name',
 description: 'product description will be added here and this is just for testig and you can replace it',
 img: '../../assets/images/IIII.jpg'
+},
+{
+name: 'Product Name',
+description: 'product description will be added here and this is just for testig and you can replace it',
+img: '../../assets/images/IV.jpg'
+},
+{
+name: 'Product Name',
+description: 'product description will be added here and this is just for testig and you can replace it',
+img: '../../assets/images/V.jpg'
 },
   ];
 }
