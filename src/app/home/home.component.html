@@ -1,0 +1,110 @@
+<!-- panner -->
+    <div class='row'>
+        <div class='panner' id='panner' style='{{height}}'>
+            <div class='overlay'>
+                <h1>Take your business global</h1>
+                <p>Lorem ipsum dolor umet dskdf sdfjdkf bla bla bla Lorem ipsum dolor umet dskdf sdfjdkf bla bla bla Lorem</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id='about' class="row about">
+            <div class="container">
+                <h2>{{ about.main.title }}</h2>
+                <p>{{ about.main.body }}</p>
+            </div>
+        </div>
+    <div class="row show">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-top card-img a" style='background-image: url("{{about.img._1}}")'></div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ about.txt._1.title }}</h5>
+                            <p class="card-text">{{ about.txt._1.description }}</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-top b" style='background-image: url("{{about.imgWithTxt._1.img}}")'></div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{ about.imgWithTxt._2.title }}</h5>
+                            <p class="card-text">{{ about.imgWithTxt._2.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <div class="card-img-top c" style='background-image: url("{{about.imgWithTxt._2.img}}")'></div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ about.imgWithTxt._2.title }}</h5>
+                            <p class="card-text">{{ about.imgWithTxt._2.description }}</p>
+                        </div>
+                    </div>
+                    <div class="card bg-primary text-white text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ about.txt._2.title }}</h5>
+                            <p class="card-text">{{ about.txt._2.description }}</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-img-top card-img d"  style='background-image: url("{{about.img._2}}")'></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top card-img e" style='background-image: url("{{about.img._3}}")'></div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ about.txt._3.title }}</h5>
+                                <p class="card-text">{{ about.txt._3.description }}</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top g" style='background-image: url("{{about.imgWithTxt._3.img}}")'></div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{ about.imgWithTxt._3.title }}</h5>
+                                <p class="card-text">{{ about.imgWithTxt._3.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- all products -->
+    <div class="products">
+        <div class='row cosmetics main-products'>
+            <div class='container'>
+                <div class='row'>
+                    <h2 class="h">PRODUCTS</h2>
+                </div>
+                <div class='row'>
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12' *ngFor = 'let product of products'>
+                        <div class="card">
+                            <!-- <img src='public/images/cleaners.jpg' alt='' /> -->
+                            <div class="product-img I" style = "background-image: url('{{product.img}}')"></div>
+                            <div>
+                                <h4 class="name">{{ product.name }}</h4>
+                                <p class="name">{{ product.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row seemore">
+                        <a href='/products'>
+                            <button type="button" class="btn btn-primary">See All Products</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
